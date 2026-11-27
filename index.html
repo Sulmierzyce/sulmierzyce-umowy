@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rejestr umów – Gmina Miejska Sulmierzyce</title>
+<style>
+  :root { --nieb:#0b4f9c; --jasny:#eaf2fb; --tekst:#1c2733; --szary:#5b6876; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+         color:var(--tekst); background:#f5f8fc; }
+  header { background:var(--nieb); color:#fff; padding:24px 16px; }
+  header h1 { margin:0 auto; max-width:1100px; font-size:1.5rem; }
+  header p { margin:4px auto 0; max-width:1100px; opacity:.85; }
+  main { max-width:1100px; margin:0 auto; padding:20px 16px 40px; }
+  .info { background:#fff; border-left:4px solid var(--nieb); padding:12px 16px; margin-bottom:16px; }
+  .info p { margin:4px 0; }
+  input { width:100%; padding:10px 12px; font-size:1rem; border:1px solid #c4d3e3; border-radius:6px;
+          margin-bottom:12px; }
+  table { width:100%; border-collapse:collapse; background:#fff; }
+  th { background:var(--jasny); text-align:left; padding:10px; font-size:.9rem; }
+  td { padding:10px; border-top:1px solid #e3eaf2; vertical-align:top; }
+  td.kw { white-space:nowrap; text-align:right; }
+  a { color:var(--nieb); }
+  .st { font-size:.8rem; padding:2px 8px; border-radius:10px; white-space:nowrap; }
+  .aktywna { background:#e3f4e8; color:#1d6b35; }
+  .nieaktywna { background:#eef0f3; color:var(--szary); }
+  footer { color:var(--szary); font-size:.85rem; margin-top:20px; }
+  @media (max-width:700px) {
+    thead { display:none; }
+    tr { display:block; border-top:1px solid #e3eaf2; padding:8px 0; }
+    td { display:block; border:0; padding:4px 10px; text-align:left !important; }
+    td[data-l]::before { content:attr(data-l) ": "; font-weight:600; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Rejestr umów – Gmina Miejska Sulmierzyce</h1>
+  <p>Umowy opublikowane w Centralnym Rejestrze Umów prowadzonym przez Ministerstwo Finansów</p>
+</header>
+<main>
+  <div class="info">
+    <p>Liczba umów: <strong>17</strong> · łączna wartość: <strong>1 964 688,55&nbsp;zł</strong></p>
+    <p>Stan na 27.11.2026, godz. 12:45. Lista aktualizuje się automatycznie kilka razy dziennie.
+       Pełne dane każdej umowy znajdują się w <a href="https://rejestrumow.gov.pl/" target="_blank"
+       rel="noopener">Centralnym Rejestrze Umów</a> (REGON 250855357).</p>
+  </div>
+  <input id="szukaj" type="search" placeholder="Szukaj w przedmiocie umowy…" aria-label="Szukaj">
+  <table>
+    <thead><tr><th>Data zawarcia</th><th>Przedmiot umowy</th><th>Wartość</th><th>Status</th><th></th></tr></thead>
+    <tbody id="lista">
+      <tr><td data-l="Data zawarcia">24.11.2026</td><td data-l="Przedmiot umowy">Wykonanie dokumentacji projektowej dla zadania pn.: Budowa sieci wodociągowej ulica Strzelecka m. Sulmierzyce</td><td data-l="Wartość" class="kw">11 070,00&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/4d9dbed6-ea4f-4481-b683-1859f7b5d9c0" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">28.10.2026</td><td data-l="Przedmiot umowy">Opracowanie dokumentacji (projekt modernizacji magazynu OC, kosztorysu i przedmiaru robót) dla zadania pn. &quot;Modernizacja magazynu OC w Sulmierzycach)</td><td data-l="Wartość" class="kw">8 300,00&nbsp;zł</td><td data-l="Status"><span class="st nieaktywna">Nieaktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/14921ab3-1016-4d04-a9bf-e8f591d77a96" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">28.10.2026</td><td data-l="Przedmiot umowy">Pełnienie w pełnym zakresie kompleksowego nadzoru inwestorskiego nad realizacją zadania pn. &quot;Modernizacja magazynu OC w Sulmierzycach&quot;</td><td data-l="Wartość" class="kw">7 380,00&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/b9448f63-5442-4b6c-9161-d5317051fb7c" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">28.10.2026</td><td data-l="Przedmiot umowy">Modernizacja magazynu OC w Sulmierzycach</td><td data-l="Wartość" class="kw">410 901,45&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/99bef54d-7e9b-4631-b3a1-ac4e430b22e1" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">03.09.2026</td><td data-l="Przedmiot umowy">Mieszanka granitowa 0-31.5 MM</td><td data-l="Wartość" class="kw">5 775,64&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/85c66b96-2867-4ea8-b978-f38109a6e0cf" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">28.08.2026</td><td data-l="Przedmiot umowy">Pełnienie w pełnym zakresie kompleksowego nadzoru inwestorskiego nad realizacją zadania pn. &quot;Wymiana chodników na terenie Miasta Sulmierzyce&quot;</td><td data-l="Wartość" class="kw">8 000,00&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/7c080951-7242-4c2c-945d-24a066e5a73b" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">10.08.2026</td><td data-l="Przedmiot umowy">Pełnienie kompleksowego nadzoru inwestorskiego nad realizacją zadania pn. &quot;Budowy budynku zaplecza sportowego wraz z niezbędną infrastrukturą techniczną&quot;</td><td data-l="Wartość" class="kw">17 220,00&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/865dad53-c242-4a99-87e5-2621f6f22fed" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">03.08.2026</td><td data-l="Przedmiot umowy">Budowa budynku zaplecza sportowego w Sulmierzycach wraz z niezbędną infrastrukturą techniczną</td><td data-l="Wartość" class="kw">792 446,93&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/4837ba55-4343-4b60-a0c5-d231dc960b2e" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">31.07.2026</td><td data-l="Przedmiot umowy">Pełnienie wielobranżowego nadzoru inwestorskiego na zadaniu pn.: Podniesienie efektywności energetycznej budynku Szkoły Podstawowej w Sulmierzycach wraz z instalacją pompy ciepła</td><td data-l="Wartość" class="kw">43 900,00&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/07ca2b9f-22a3-414a-b147-a1c362014beb" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">22.07.2026</td><td data-l="Przedmiot umowy">Realizacja projektu grantowego pn.: &quot;Cyberbezpieczna Gmina Sulmierzyce&quot;</td><td data-l="Wartość" class="kw">226 074,00&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/0a410574-f02a-4c35-a7ba-9fb30e1ba4f4" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">10.07.2026</td><td data-l="Przedmiot umowy">Udział w pracach komisji egzaminacyjnej nauczycieli placówek oświatowych w Sulmierzycach ubiegających się o stopień nauczyciela mianowanego.</td><td data-l="Wartość" class="kw">990,00&nbsp;zł</td><td data-l="Status"><span class="st nieaktywna">Nieaktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/a2f4bfa9-6147-435b-98ff-a04ffa1f5bf6" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">10.07.2026</td><td data-l="Przedmiot umowy">Udział w pracach komisji egzaminacyjnej nauczycieli placówek oświatowych w Sulmierzycach ubiegających się o stopień nauczyciela mianowanego.</td><td data-l="Wartość" class="kw">990,00&nbsp;zł</td><td data-l="Status"><span class="st nieaktywna">Nieaktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/c8b003a9-6464-4aef-8492-1e1749cd8743" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">10.07.2026</td><td data-l="Przedmiot umowy">Wykonanie Programów Funkcjonalno-użytkowych dot. budowy Mikroinstalacji z magazynami energii dla mieszkańców wraz z systemem zarządzania energią (181 szt.) oraz mikroinstalacji do 50 kWp (magazynu energii) dla Budynku Użyteczności Publicznej (1 szt.) wraz z systemem zarządzania energią</td><td data-l="Wartość" class="kw">29 520,00&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/244ed255-b8ae-4ad0-b752-8766212ca5f5" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">09.07.2026</td><td data-l="Przedmiot umowy">Wymiana chodników na terenie Miasta Sulmierzyce</td><td data-l="Wartość" class="kw">329 640,53&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/57907bba-c4d2-4d04-8593-9e54360d8795" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">03.07.2026</td><td data-l="Przedmiot umowy">zorganizowanie wypoczynku z programem profilaktycznym dla dzieci i młodzieży</td><td data-l="Wartość" class="kw">32 900,00&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/824a26be-9d5f-40c0-a045-f9f6d3dcfde8" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">03.07.2026</td><td data-l="Przedmiot umowy">Wykonanie rocznych przeglądów dróg na terenie Sulmierzyc</td><td data-l="Wartość" class="kw">2 680,00&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/b68e60f9-6728-4b2b-8800-817aa7809498" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr><tr><td data-l="Data zawarcia">03.07.2026</td><td data-l="Przedmiot umowy">Projekt &quot;Przebudowa sieci elektroenergetycznej nn dotyczącej skablowania Rynku w Sulmierzycach&quot;</td><td data-l="Wartość" class="kw">36 900,00&nbsp;zł</td><td data-l="Status"><span class="st aktywna">Aktywna</span></td><td><a href="https://rejestrumow.gov.pl/umowa/c1a5ef6a-74cd-47de-8c5d-804c0084d32a" target="_blank" rel="noopener">Szczegóły&nbsp;›</a></td></tr>
+    </tbody>
+  </table>
+  <footer>Źródło danych: rejestrumow.gov.pl · Urząd Miejski w Sulmierzycach</footer>
+</main>
+<script>
+  document.getElementById('szukaj').addEventListener('input', function () {
+    var q = this.value.toLowerCase();
+    document.querySelectorAll('#lista tr').forEach(function (tr) {
+      tr.style.display = tr.textContent.toLowerCase().indexOf(q) > -1 ? '' : 'none';
+    });
+  });
+</script>
+</body>
+</html>
